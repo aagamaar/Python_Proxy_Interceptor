@@ -10,7 +10,6 @@ def handle_client(client_socket):
     """
     Handles a single connection from the browser.
     """
-
     try:
         # 1. Recieve the request from the browser.
         request = client_socket.recv(BUFFER_SIZE)
